@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script src="js/NumberExt.js"></script>
+        <script src="js/MyFunctions.js"></script>
+        <script src="js/IntegerResult.js"></script>
+        <script src="js/script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    </head>
+    <body>
+        <div class="form-group">
+            <textarea id="text-value" class="form-control" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn btn-default" onclick="find('text-value', myFunctions.test.int)">Find single-line integers</button> 
+            <button type="button" class="btn btn-default" onclick="find('text-value', myFunctions.test.odd)">Find single-line odd integers</button>
+            <button type="button" class="btn btn-default" onclick="find('text-value', myFunctions.test.even)">Find single-line even integers</button>
+            <button type="button" class="btn btn-default" onclick="find('text-value', myFunctions.test.prime)">Find single-line prime integers</button>
+        </div>
+        <div class="form-group">
+            <textarea id="results" class="form-control" rows="10"></textarea>
+        </div>
+    </body>
+</html>
